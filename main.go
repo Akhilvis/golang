@@ -2,8 +2,16 @@ package main
 
 import "fmt"
 
+// import "fmt"
+
 func main() {
 
-	var card string = "Ace of spades"
-	fmt.Println(card)
+	cards := newDeck()
+
+	fmt.Println(cards)
+
+}
+
+func newCard() string {
+	return "five of dimonds"
 }
