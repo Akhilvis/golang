@@ -10,6 +10,12 @@ func main() {
 
 	fmt.Println(cards)
 
+	hand, remaingCard := deal(cards, 5)
+
+	hand.print()
+	fmt.Print("##############################################")
+	remaingCard.print()
+
 }
 
 func newCard() string {
